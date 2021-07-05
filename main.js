@@ -40,13 +40,13 @@ function gotResult(error,results){
 function draw(){
 image(img,0 , 0 , 640 , 420 );
 fill("FF0000");
-Text("Dog",45,75);
+text("Dog",45,75);
 noFill();
 stroke("#FF0000");
 rect(30,60,450,350);
 
 fill("blue");
-Text("Cat",320,120);
+text("Cat",320,120);
 noFill()
 stroke("blue");
 rect(300,90,270,320);
